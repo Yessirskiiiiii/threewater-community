@@ -1,5 +1,7 @@
 server:
   port: 8080
+  servlet:
+    context-path: /community
 spring:
   application:
     name: threewater-community
@@ -35,3 +37,7 @@ mybatis:
   configuration:
     use-generated-keys: true
     map-underscore-to-camel-case: true
+
+community:
+  path:
+    domain: http://localhost:8080
